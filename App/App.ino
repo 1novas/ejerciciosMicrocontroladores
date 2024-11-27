@@ -32,8 +32,6 @@ void loop() {
       cambiarModo();
     } else if (comando == "STOP") {
       stop();
-    } else {
-      Serial.println("Comando no reconocido. Usa 'H' para ayuda.");
     }
   }
 
